@@ -56,4 +56,4 @@ To view and run this project locally, follow these steps:
 Feel free to reach out to me!
 
 * *Email:* *[dewantrishasree17@gmail.com]*
-* *LinkedIn:* *[Link to your LinkedIn profile]*
+* *LinkedIn:* *[www.linkedin.com/in/trishasree-dewan-53681929a]*
