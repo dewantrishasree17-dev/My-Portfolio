@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f0f8ff;
+  color: #000;
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  background-color: #6853e0;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  position: relative;
+}
+
+header h1 {
+  font-size: 2.2rem;
+}
+
+#role {
+  font-size: 1.1rem;
+  margin: 8px 0;
+  height: 20px;
+}
+#profile-pic {
+  width: 175px;       
+  height: 175px;      
+  border-radius: 50%; 
+  object-fit: cover;  
+  display: block;
+  margin: 0 auto; 
+  border: none; 
+  transition: border 0.3s;
+}
+
+#theme-toggle {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+#theme-toggle:hover {
+  background: #ddd;
+}
+
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+  border-bottom:1px solid #ddd
+}
+
+#skills ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#skills li {
+  background: #e0e0ff;
+  margin: 5px 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.project {
+  background: #fff;
+  margin: 15px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input, form textarea {
+  width: 80%;
+  max-width: 400px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form button {
+  background: #6853e0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: #5a52d5;
+}
+
+footer {
+  background: #6853e0;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 20px;
+}
+
+/* 🌙 Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+dark-mode #profile-pic {
+  border: 4px solid #f2f2f2;
+}
+.dark-mode header {
+  background-color: #6853e0;
+}
+
+.dark-mode #skills li {
+  background: #444;
+}
+.dark-mode .project {
+  background: #222; 
+  color: #ffffff;  
+  box-shadow: 0 2px 8px rgba(255, 255,255,0.1);
+}
+
+.dark-mode form input, 
+.dark-mode form textarea {
+  background: #222;
+  color: white;
+  border: 1px solid #555;
+}
